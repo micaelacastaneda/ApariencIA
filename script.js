@@ -9,7 +9,7 @@ function showState(state) {
     });
 }
 
-// Mostrar el estado inicial
+// Mostrar el estado inicial AJSSKADNA
 showState(currentState);
 
 // Evento de teclado
