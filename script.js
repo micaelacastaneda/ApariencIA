@@ -313,22 +313,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Verifica que haya pantallas antes de continuar
     if (pantallas.length === 0) {
-        console.error("No se encontraron elementos con la clase 'estado'.");
         return;
     }
 
-    // Configura el evento de cambio de pantalla
+    // cambio de pantalla
     document.body.addEventListener('click', function () {
-        // Ocultar la pantalla actual
+
         pantallas[estados].classList.remove('visible');
 
-        // Incrementar el índice para la siguiente pantalla
+   
         estados = (estados + 1) % pantallas.length;
 
-        // Mostrar la siguiente pantalla
+
         pantallas[estados].classList.add('visible');
 
-        // Activar o desactivar la webcam en función del estado actual
+        // activas o desactivar la camara
         if (estados === 0) {
             activarWebcam();
         } else {
@@ -343,7 +342,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        // Activa la cámara si no está activa
+        // activa la cámara
         if (!videoElement.srcObject) {
             navigator.mediaDevices.getUserMedia({ video: true })
                 .then((stream) => {
@@ -362,7 +361,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        // Detener el stream si está activo
+        // Detener la camara
         if (videoElement.srcObject) {
             const stream = videoElement.srcObject;
             const tracks = stream.getTracks();
