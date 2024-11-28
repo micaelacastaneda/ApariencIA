@@ -68,8 +68,9 @@ li{
     margin-top: 694px;
 }
 
-.estado51{
-    background-color: cadetblue;
+.estado17,
+.estado30 {
+    background-color: rgb(250, 250, 250);
 }
 
 

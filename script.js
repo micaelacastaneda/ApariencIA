@@ -9,7 +9,7 @@ function showState(state) {
     });
 }
 
-// Mostrar el estado inicial AJSSKADNA
+// Mostrar el estado inicial
 showState(currentState);
 
 // Evento de teclado
@@ -31,208 +31,99 @@ document.addEventListener('keydown', (event) => {
             currentState = 5; 
             showState(currentState);
         } else if (currentState === 5) {
+            currentState = 6; 
+            showState(currentState);
+
+            //nucleo 1
+        } else if (currentState === 6) {
+            currentState = 10; 
+            showState(currentState);
+        } else if (currentState === 10) {
+            currentState = 11; 
+            showState(currentState);
+        } else if (currentState === 11) {
             currentState = 12; 
             showState(currentState);
         } else if (currentState === 12) {
             currentState = 14; 
             showState(currentState);
-        } else if (currentState === 13) {
-            currentState = 5; 
-            showState(currentState);
-        } else if (currentState === 14) {
-            currentState = 16; 
-            showState(currentState);
-        } else if (currentState === 15) {
-            currentState = 5; 
-            showState(currentState);
-        } else if (currentState === 16) {
-            currentState = 18; 
-            showState(currentState);
-        } else if (currentState === 17) {
-            currentState = 5; 
-            showState(currentState);
-        } else if (currentState === 6) {
-            currentState = 22;
-            showState(currentState);
-        } else if (currentState === 22) {
-            currentState = 24; 
-            showState(currentState);
-        } else if (currentState === 23) {
-            currentState = 5; 
-            showState(currentState);
-        } else if (currentState === 26) {
-            currentState = 5;
-            showState(currentState);
-        } else if (currentState === 27) {
-            currentState = 28; 
-            showState(currentState);
-        } else if (currentState === 28) {
-            currentState = 5;
-            showState(currentState);
-        } else if (currentState === 29) {
-            currentState = 31; 
-            showState(currentState);
-        } else if (currentState === 30) {
-            currentState = 5; 
-            showState(currentState);
-        } else if (currentState === 31) {
-            
-            showState(currentState);
-        } else if (currentState === 32) {
-            currentState = 5; 
-            showState(currentState);
-        } else if (currentState === 7) {
-            currentState = 34;
-            showState(currentState);
-        } else if (currentState === 34) {
-            currentState = 36; 
-            showState(currentState);
-        } else if (currentState === 35) {
-            currentState = 5; 
-            showState(currentState);
-        } else if (currentState === 36) {
-            currentState = 38; 
-            showState(currentState);
-        } else if (currentState === 37) {
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 43) { 
-            currentState = 45; 
-            showState(currentState);
-        }else if (currentState === 44) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 45) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 8) { 
-            currentState = 46; 
-            showState(currentState);
-        }else if (currentState === 46) { 
-            currentState = 48; 
-            showState(currentState);
-        }else if (currentState === 47) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 48) { 
-            currentState = 50; 
-            showState(currentState);
-        }else if (currentState === 49) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 51) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 9) { 
-            currentState = 11; 
-            showState(currentState);
-        }else if (currentState === 11) { 
-            currentState = 9; 
-            showState(currentState);
-        }else if (currentState === 10) { 
-            currentState = 0; 
-            showState(currentState);
-        }else if (currentState === 21) { 
-            currentState = 5; 
-            showState(currentState);
-        }
-    }
-
-    if (event.key === 'ArrowLeft') {   //flecha izquierda
-        if (currentState === 12) {
-            currentState = 13; 
-            showState(currentState);
-        } else if (currentState === 14) {
-            currentState = 15; 
-            showState(currentState);
         } else if (currentState === 16) {
             currentState = 17; 
             showState(currentState);
-        } else if (currentState === 6) {
-            currentState = 5; 6
+        } else if (currentState === 17) {
+            currentState = 6; 
+            showState(currentState);
+        } 
+
+        //nucleo 2
+        else if (currentState === 7) {
+            currentState = 19; 
+            showState(currentState);
+        }  else if (currentState === 19) {
+            currentState = 20; 
             showState(currentState);
         } else if (currentState === 22) {
             currentState = 23; 
             showState(currentState);
-        } else if (currentState === 28) {
-            currentState = 29; 
+        } else if (currentState === 24) {
+            currentState = 25; 
             showState(currentState);
-        } else if (currentState === 29) {
+        } else if (currentState === 27) {
             currentState = 30; 
             showState(currentState);
-        } else if (currentState === 7) { 
-            currentState = 6; 
-            showState(currentState);
-        } else if (currentState === 34) {
-            currentState = 35; 
-            showState(currentState);
-        } else if (currentState === 36) { 
-            currentState = 37; 
-            showState(currentState);
-        }else if (currentState === 42) { 
-            currentState = 41; 
-            showState(currentState);
-        }else if (currentState === 41) { 
-            currentState = 40; 
-            showState(currentState);
-        }else if (currentState === 40) { 
-            currentState = 39; 
-            showState(currentState);
-        }else if (currentState === 39) { 
-            currentState = 38; 
-            showState(currentState);
-        }else if (currentState === 43) { 
-            currentState = 44; 
-            showState(currentState);
-        }else if (currentState === 27) { 
-            currentState = 26; 
-            showState(currentState);
-        }else if (currentState === 32) { 
-            currentState = 31; 
-            showState(currentState);
-        }else if (currentState === 8) { 
-            currentState = 7; 
-            showState(currentState);
-        }else if (currentState === 46) { 
-            currentState = 47; 
-            showState(currentState);
-        }else if (currentState === 48) { 
-            currentState = 49; 
-            showState(currentState);
-        }else if (currentState === 9) { 
-            currentState = 8; 
-            showState(currentState);
-        }else if (currentState === 10) { 
-            currentState = 9; 
-            showState(currentState);
-        }else if (currentState === 20) { 
-            currentState = 19; 
-            showState(currentState);
-        }else if (currentState === 19) { 
-            currentState = 18; 
+        } 
+        
+    }
+
+
+
+    if (event.key === 'ArrowLeft') {   //flecha izquierda
+        if (currentState === 12) {
+            currentState = 13; 
             showState(currentState);
         }
         
     }
 
     if (event.key === 'ArrowRight') { // flecha derecha
-        if (currentState === 5) {
-            currentState = 6; 
+       
+        ///seleccionar nucleos
+       
+        if (currentState === 6) {
+            currentState = 7; 
             showState(currentState);
+        } else if (currentState === 7) {
+            currentState = 8; 
+            showState(currentState);
+        } else if (currentState === 8) {
+            currentState = 9; 
+            showState(currentState);
+
+            // nucleo 1
+
         } else if (currentState === 13) {
-            currentState = 12; 
-            showState(currentState);
-        } else if (currentState === 15) {
             currentState = 14; 
             showState(currentState);
-        } else if (currentState === 17) {
+        } else if (currentState === 14) {
+            currentState = 15; 
+            showState(currentState);
+        } else if (currentState === 15) {
             currentState = 16; 
             showState(currentState);
-        } else if (currentState === 23) {
+        } 
+
+        ///nucleo 2
+        else if (currentState === 20) {
+            currentState = 21; 
+            showState(currentState);
+        } else if (currentState === 21) {
             currentState = 22; 
             showState(currentState);
-        } else if (currentState === 24) {
-            currentState = 25; 
+        } else if (currentState === 22) {
+            currentState = 23; 
+            showState(currentState);
+        } else if (currentState === 23) {
+            currentState = 24; 
             showState(currentState);
         } else if (currentState === 25) {
             currentState = 26; 
@@ -240,70 +131,7 @@ document.addEventListener('keydown', (event) => {
         } else if (currentState === 26) {
             currentState = 27; 
             showState(currentState);
-        } else if (currentState === 28) {
-            currentState = 29; 
-            showState(currentState);
-        } else if (currentState === 30) {
-            currentState = 29; 
-            showState(currentState);
-        } else if (currentState === 31) {
-            currentState = 32; 
-            showState(currentState);
-        } else if (currentState === 6) { 
-            currentState = 7; 
-            showState(currentState);
-        } else if (currentState === 35) {
-            currentState = 34; 
-            showState(currentState);
-        } else if (currentState === 37) { 
-            currentState = 36; 
-            showState(currentState);
-        }else if (currentState === 38) { 
-            currentState = 39; 
-            showState(currentState);
-        }else if (currentState === 39) { 
-            currentState = 40; 
-            showState(currentState);
-        }else if (currentState === 40) { 
-            currentState = 41; 
-            showState(currentState);
-        }else if (currentState === 41) { 
-            currentState = 42; 
-            showState(currentState);
-        }else if (currentState === 42) { 
-            currentState = 43; 
-            showState(currentState);
-        }else if (currentState === 44) { 
-            currentState = 43; 
-            showState(currentState);
-        }else if (currentState === 7) { 
-            currentState = 8; 
-            showState(currentState);
-        }else if (currentState === 47) { 
-            currentState = 46; 
-            showState(currentState);
-        }else if (currentState === 49) { 
-            currentState = 48; 
-            showState(currentState);
-        }else if (currentState === 50) { 
-            currentState = 51; 
-            showState(currentState);
-        }else if (currentState === 8) { 
-            currentState = 9; 
-            showState(currentState);
-        }else if (currentState === 9) { 
-            currentState = 10; 
-            showState(currentState);
-        }else if (currentState === 18) { 
-            currentState = 19; 
-            showState(currentState);
-        }else if (currentState === 19) { 
-            currentState = 20; 
-            showState(currentState);
-        }else if (currentState === 20) { 
-            currentState = 21; 
-            showState(currentState);
-        }
+        } 
     }
 });
 
