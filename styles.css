@@ -21,56 +21,9 @@
 
 }
 
-
-
-
-/************************       nucleo 4            ***************************/
-.estado50{
-    display: flex;
-    flex-direction: column;
-}
-.estado51{
-    display: flex;
-    flex-direction: column;
-}
-ul{
-    display: flex;
-    flex-direction: row;
-}
-
-li{
-    margin-top: -100px;
-}
-
-#hombre img{
-
-    width: 500px;
-
-    margin-left: 60px;
-    margin-top: -1300px;
-}
-
-.teles{
-    width: 600px;
-    height: 610px;
-
-    margin-left: 780px;
-    margin-top: -1060px;
-    padding-top: -300px;
-
-
-}
-
-.cod img{
-    width: 1533px;
-    height: 164px;
-
-    margin-top: 694px;
-}
-
-.estado17,
+/**.estado17,
 .estado30 {
     background-color: rgb(250, 250, 250);
 }
-
+*/
 
