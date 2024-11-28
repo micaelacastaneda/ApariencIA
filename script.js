@@ -1,5 +1,5 @@
 let currentState = 0; // Estado inicial
-const totalStates = 36; // Aumentamos el total de estados a 36
+const totalStates = 46; // Aumentamos el total de estados a 46
 
 // Función para mostrar el estado actual
 function showState(state) {
@@ -57,7 +57,6 @@ document.addEventListener('keydown', (event) => {
             showState(currentState);
         }
         
-        //fin nuucleo 1
 
         //nucleo 2
 
@@ -117,48 +116,6 @@ document.addEventListener('keydown', (event) => {
             showState(currentState);
         } else if (currentState === 46) {
             currentState = 6; 
-            showState(currentState);
-        }
-        
-        
-        else if (currentState === 43) { 
-            currentState = 45; 
-            showState(currentState);
-        }else if (currentState === 44) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 45) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 8) { 
-            currentState = 46; 
-            showState(currentState);
-        }else if (currentState === 46) { 
-            currentState = 48; 
-            showState(currentState);
-        }else if (currentState === 47) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 48) { 
-            currentState = 50; 
-            showState(currentState);
-        }else if (currentState === 49) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 51) { 
-            currentState = 5; 
-            showState(currentState);
-        }else if (currentState === 9) { 
-            currentState = 11; 
-            showState(currentState);
-        }else if (currentState === 11) { 
-            currentState = 9; 
-            showState(currentState);
-        }else if (currentState === 10) { 
-            currentState = 0; 
-            showState(currentState);
-        }else if (currentState === 21) { 
-            currentState = 5; 
             showState(currentState);
         }
     }
@@ -241,28 +198,7 @@ document.addEventListener('keydown', (event) => {
             currentState = 43; 
             showState(currentState);
         }else if (currentState === 44) { 
-            currentState = 43; 
-            showState(currentState);
-        }else if (currentState === 7) { 
-            currentState = 8; 
-            showState(currentState);
-        }else if (currentState === 47) { 
-            currentState = 46; 
-            showState(currentState);
-        }else if (currentState === 49) { 
-            currentState = 48; 
-            showState(currentState);
-        }else if (currentState === 50) { 
-            currentState = 51; 
-            showState(currentState);
-        }else if (currentState === 8) { 
-            currentState = 9; 
-            showState(currentState);
-        }else if (currentState === 9) { 
-            currentState = 10; 
-            showState(currentState);
-        }else if (currentState === 18) { 
-            currentState = 19; 
+            currentState = 45; 
             showState(currentState);
         }
     }
