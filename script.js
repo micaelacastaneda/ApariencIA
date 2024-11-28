@@ -122,79 +122,16 @@ document.addEventListener('keydown', (event) => {
 
   
     if (event.key === 'ArrowLeft') {   //flecha izquierda
-        if (currentState === 12) {
-            currentState = 13; 
-            showState(currentState);
-        } else if (currentState === 14) {
-            currentState = 15; 
-            showState(currentState);
-        } else if (currentState === 16) {
-            currentState = 17; 
-            showState(currentState);
-        } else if (currentState === 6) {
-            currentState = 5; 6
-            showState(currentState);
-        } else if (currentState === 22) {
-            currentState = 23; 
-            showState(currentState);
-        } else if (currentState === 28) {
-            currentState = 29; 
-            showState(currentState);
-        } else if (currentState === 29) {
-            currentState = 30; 
-            showState(currentState);
-        } else if (currentState === 7) { 
-            currentState = 6; 
-            showState(currentState);
-        } else if (currentState === 34) {
-            currentState = 35; 
-            showState(currentState);
-        } else if (currentState === 36) { 
-            currentState = 37; 
-            showState(currentState);
-        }else if (currentState === 42) { 
-            currentState = 41; 
-            showState(currentState);
-        }else if (currentState === 41) { 
-            currentState = 40; 
-            showState(currentState);
-        }else if (currentState === 40) { 
-            currentState = 39; 
-            showState(currentState);
-        }else if (currentState === 39) { 
-            currentState = 38; 
-            showState(currentState);
-        }else if (currentState === 43) { 
-            currentState = 44; 
-            showState(currentState);
-        }else if (currentState === 27) { 
-            currentState = 26; 
-            showState(currentState);
-        }else if (currentState === 32) { 
-            currentState = 31; 
-            showState(currentState);
-        }else if (currentState === 8) { 
-            currentState = 7; 
-            showState(currentState);
-        }else if (currentState === 46) { 
-            currentState = 47; 
-            showState(currentState);
-        }else if (currentState === 48) { 
-            currentState = 49; 
-            showState(currentState);
-        }else if (currentState === 9) { 
+        if (currentState === 9) {
             currentState = 8; 
             showState(currentState);
-        }else if (currentState === 10) { 
-            currentState = 9; 
+        } else if (currentState === 8) {
+            currentState = 7; 
             showState(currentState);
-        }else if (currentState === 20) { 
-            currentState = 19; 
+        } else if (currentState === 7) {
+            currentState = 6; 
             showState(currentState);
-        }else if (currentState === 19) { 
-            currentState = 18; 
-            showState(currentState);
-        }
+        } 
     }
 
     if (event.key === 'ArrowRight') { // flecha derecha
